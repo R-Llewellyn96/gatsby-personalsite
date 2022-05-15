@@ -10,6 +10,8 @@ import {
     Typography
 } from "@mui/material";
 import theme from "../theme";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faArrowRightLong} from "@fortawesome/free-solid-svg-icons/faArrowRightLong";
 
 const myCards = [
     {
@@ -166,11 +168,11 @@ const MyBlogSection = () => {
                                     <IconButton aria-label="card-link" sx={{
                                         color: '#073042',
                                         "&:hover": {
-                                            color: theme.palette.secondary.main,
+                                            color: theme.palette.primary.main,
                                             backgroundColor: 'transparent',
                                         },
                                     }}>
-                                        <i className="fa-solid fa-arrow-right-long fa-xl"></i>
+                                        <FontAwesomeIcon icon={faArrowRightLong} size="lg" />
                                     </IconButton>
                                 </CardActions>
                             </CardActionArea>
