@@ -20,12 +20,13 @@ import {faHtml5} from "@fortawesome/free-brands-svg-icons/faHtml5";
 import {faCss3} from "@fortawesome/free-brands-svg-icons/faCss3";
 import {faReact} from "@fortawesome/free-brands-svg-icons/faReact";
 import {SiGatsby} from "@react-icons/all-files/si/SiGatsby";
-import {SiNetlify} from "@react-icons/all-files/si/SiNetlify";
 import {SiSpring} from "@react-icons/all-files/si/SiSpring";
 import {boxStyling} from "../styling/myCustomStylingComponents";
 import {faGithub} from "@fortawesome/free-brands-svg-icons/faGithub";
 import {faDocker} from "@fortawesome/free-brands-svg-icons/faDocker";
 import {faGitAlt} from "@fortawesome/free-brands-svg-icons/faGitAlt";
+import {SiMaterialUi} from "@react-icons/all-files/si/SiMaterialUi";
+import {SiPostgresql} from "@react-icons/all-files/si/SiPostgresql";
 
 const chipDataFrontEnd = [
     {
@@ -47,17 +48,16 @@ const chipDataFrontEnd = [
         key: 3,
         label: 'React',
         icon: <FontAwesomeIcon icon={faReact} size="lg" style={{fontSize: '150%', color: '#61dbfb'}}/>
-
     },
     {
         key: 4,
+        label: 'Material UI',
+        icon: <SiMaterialUi style={{fontSize: '125%', color: '#00758f'}} />
+    },
+    {
+        key: 5,
         label: 'Gatsby',
         icon: <SiGatsby  style={{fontSize: '150%', color: '#663399'}} />
-    },
-    {
-        key: 4,
-        label: 'Netlify',
-        icon: <SiNetlify  style={{fontSize: '150%', color: '#20c6b7'}} />
     }
 ]
 
@@ -84,6 +84,11 @@ const chipDataBackend =  [
     },
     {
         key: 4,
+        label: 'PostgreSQL',
+        icon: <SiPostgresql style={{fontSize: '125%', color: '#00758f'}} />
+    },
+    {
+        key: 5,
         label: 'MySQL',
         icon: <FontAwesomeIcon icon={faDatabase} size="lg" style={{fontSize: '150%', color: '#00758f'}}/>,
     }
@@ -107,13 +112,13 @@ const chipDataUtils = [
     },
     {
         key: 3,
-        label: 'Git',
-        icon: <FontAwesomeIcon icon={faGitAlt} size="lg" style={{fontSize: '150%', color: '#f1502f'}}/>
+        label: 'Github',
+        icon: <FontAwesomeIcon icon={faGithub} size="lg" style={{fontSize: '150%', color: '#333333'}}/>
     },
     {
         key: 4,
-        label: 'Github',
-        icon: <FontAwesomeIcon icon={faGithub} size="lg" style={{fontSize: '150%', color: '#333333'}}/>
+        label: 'Git',
+        icon: <FontAwesomeIcon icon={faGitAlt} size="lg" style={{fontSize: '150%', color: '#f1502f'}}/>
     },
 ]
 

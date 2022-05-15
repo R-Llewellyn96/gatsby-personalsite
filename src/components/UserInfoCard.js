@@ -22,6 +22,7 @@ import {
     typographyHeader,
 } from "../styling/myCustomStylingComponents"
 import "./styles.css";
+import {faEarthEurope} from "@fortawesome/free-solid-svg-icons/faEarthEurope";
 
 const defaultUser = {
     name: "Ryan Llewellyn",
@@ -145,7 +146,7 @@ export default function UserInfoCard() {
                         LOCATION
                     </Typography>
                     <Typography gutterBottom variant="subtitle1" sx={{...typographyContent}} component="div" align="left">
-                        <i className="fa-solid fa-earth-europe fa-xl" /> {location}
+                        <FontAwesomeIcon icon={faEarthEurope} size="lg" /> {location}
                     </Typography>
 
 
