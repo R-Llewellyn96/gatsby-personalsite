@@ -102,43 +102,43 @@ const MyOwnTimeSection = () => {
         {
             html_url: "https://github.com/R-Llewellyn96/gatsby-personalsite",
             full_name: "R-Llewellyn96/gatsby-personalsite",
-            description: "Personal Website built in Gatsby JS",
+            description: "Personal Website built using React, Material UI and Gatsby JS",
             topics: [],
             language: "JavaScript",
             stargazers_count: 0,
             forks_count: 0
         },
         {
-            html_url: "https://github.com/R-Llewellyn96/gatsby-personalsite",
-            full_name: "R-Llewellyn96/gatsby-personalsite",
-            description: "Personal Website built in Gatsby JS",
-            topics: [],
-            language: "C++",
-            stargazers_count: 0,
-            forks_count: 0
-        },
-        {
-            html_url: "https://github.com/R-Llewellyn96/gatsby-personalsite",
-            full_name: "R-Llewellyn96/gatsby-personalsite",
-            description: "Personal Website built in Gatsby JS",
-            topics: [],
-            language: "Kotlin",
-            stargazers_count: 0,
-            forks_count: 0
-        },
-        {
-            html_url: "https://github.com/R-Llewellyn96/gatsby-personalsite",
-            full_name: "R-Llewellyn96/gatsby-personalsite",
-            description: "Personal Website built in Gatsby JS",
+            html_url: "https://github.com/R-Llewellyn96/Python-LCCSpending",
+            full_name: "R-Llewellyn96/Python-LCCSpending",
+            description: "Liverpool City Council Spending challenge.",
             topics: [],
             language: "Python",
             stargazers_count: 0,
             forks_count: 0
         },
         {
-            html_url: "https://github.com/R-Llewellyn96/gatsby-personalsite",
-            full_name: "R-Llewellyn96/gatsby-personalsite",
-            description: "Personal Website built in Gatsby JS",
+            html_url: "https://github.com/R-Llewellyn96/Java-TwitterAnalyser",
+            full_name: "R-Llewellyn96/Java-TwitterAnalyser",
+            description: "Targeted Tweet Analyser which uses Stanford's Natural Language Processing Library to perform sentiment analysis and a targeted keyword search for different topics.",
+            topics: [],
+            language: "Java",
+            stargazers_count: 0,
+            forks_count: 0
+        },
+        {
+            html_url: "https://github.com/R-Llewellyn96/Java-AESEncryption",
+            full_name: "R-Llewellyn96/Java-AESEncryption",
+            description: "Implementation of AES Encryption / Decryption using the Java Cryptography Extension and JavaFX.",
+            topics: [],
+            language: "Java",
+            stargazers_count: 0,
+            forks_count: 0
+        },
+        {
+            html_url: "https://github.com/R-Llewellyn96/Java-arrayRegex",
+            full_name: "R-Llewellyn96/Java-arrayRegex",
+            description: "Java Microservice which performs a match and replace regex using parallel streams on a string array passed as an argument to the program, returns a modified string array.",
             topics: [],
             language: "Java",
             stargazers_count: 0,
@@ -172,8 +172,8 @@ const MyOwnTimeSection = () => {
                             <Typography variant="body1" align="left" sx={{...typoText}} paragraph>
                                 Personal Projects which interest me
                                 <ul className="list" style={{ marginLeft:'1rem', listStyle: 'disc outside'}}>
-                                    <li>Experimentation with Back-End services using Kotlin with Spring</li>
-                                    <li>Implementing SPAs on the Front-End using React and Material-UI with Gatsby</li>
+                                    <li>Experimentation with Back-End services using Java with Spring Boot</li>
+                                    <li>Implementing SPAs and Static Sites on the Front-End using React and Material-UI with Gatsby</li>
                                     <li>Interfacing with a Postgres database</li>
                                     <li>Functional Programming in Java and utilisation of the Parallel Streams API</li>
                                     <li>Experimenting with Cryptography in Java, utilising the Java Cryptography Extension of the Java Cryptography Architecture</li>
